@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String[] xmlList = new String[5];
+        String[] xmlList = new String[6];
         xmlList[0] = "<tag1>";
         xmlList[1] = "text1";
         xmlList[2] = "</tag1>";
@@ -22,6 +22,8 @@ public class Main {
         //xmlList[5] = "</tag2>"; aici apare modificarea ceruta
 	  //la pasul 8, xmlList are acum dimensiunea 5
 
+       // xmlList[5] = "</tag2>";
+       //modificare
         Document xml = new XML(xmlList);
 
         ArrayList<Document> documente = new ArrayList<>();
